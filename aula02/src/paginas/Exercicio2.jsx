@@ -1,4 +1,4 @@
-export default function App ()
+export default function Exercicio2 ()
 {
   return (
     <div>

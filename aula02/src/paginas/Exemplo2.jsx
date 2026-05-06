@@ -1,4 +1,4 @@
-export default function App ()
+export default function AExemplo2 ()
 {
   return (
     <div>
