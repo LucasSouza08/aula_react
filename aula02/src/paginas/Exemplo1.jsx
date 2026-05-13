@@ -1,8 +1,14 @@
-export default function Exemplo1 ()
+export default function Exemplo1 ({numero})
 {
+  let quadrado,cubo;
+  quadrado = Number(numero) * Number(numero);
+  cubo = Number(numero) * Number(numero) * Number(numero)
+  
   return (
     <div>
-      <h1>Aula 02 - Estudo de Componentes e Props </h1>
+      O quadrado do número {numero} é {quadrado}, e o cubo dele é {cubo}
     </div>
+
+    
   )
 }
